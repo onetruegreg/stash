@@ -1,0 +1,398 @@
+{
+  "front-version": "2.9.0",
+  "version": 3,
+  "nodes": [
+    {
+      "type": "Project",
+      "id": "b55c9b6f-dc1a-47c7-a4d5-9944a478edbe",
+      "lastModified": "2017-09-18T13:32:22.036-04:00",
+      "name": "stash"
+    },
+    {
+      "type": "Request",
+      "method": {
+        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.1",
+        "name": "GET"
+      },
+      "body": {
+        "formBody": {
+          "overrideContentType": true,
+          "encoding": "application/x-www-form-urlencoded"
+        },
+        "bodyType": "Text",
+        "autoSetLength": true,
+        "textBody": "{\n  \"email\" : \"pgriffin@quahog.gov\",\n  \"full_name\" : \"Pea-tear Griffin, Peter Griffin!\",\n  \"metadata\" : \"Idiot.\"\n}"
+      },
+      "headersType": "Form",
+      "uri": {
+        "query": {
+          "delimiter": "&",
+          "items": []
+        },
+        "scheme": {
+          "name": "http",
+          "version": "V11"
+        },
+        "host": "127.0.0.1",
+        "path": "/api/v1/users"
+      },
+      "id": "19b61ead-41fb-479d-a649-09c852bd3074",
+      "lastModified": "2017-09-18T13:21:18.727-04:00",
+      "name": "Get Users 1 - All Users",
+      "headers": [
+        {
+          "enabled": true,
+          "name": "X-Requested-With",
+          "value": "XMLHttpRequest"
+        }
+      ],
+      "metaInfo": {
+        "ownerId": "auth0|56bba79cea988c1753047d7a"
+      },
+      "parentId": "b55c9b6f-dc1a-47c7-a4d5-9944a478edbe"
+    },
+    {
+      "type": "Request",
+      "method": {
+        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.1",
+        "name": "GET"
+      },
+      "body": {
+        "formBody": {
+          "overrideContentType": true,
+          "encoding": "application/x-www-form-urlencoded"
+        },
+        "bodyType": "Text",
+        "autoSetLength": true,
+        "textBody": "{\n  \"email\" : \"pgriffin@quahog.gov\",\n  \"full_name\" : \"Pea-tear Griffin, Peter Griffin!\",\n  \"metadata\" : \"Idiot.\"\n}"
+      },
+      "headersType": "Form",
+      "uri": {
+        "query": {
+          "delimiter": "&",
+          "items": [
+            {
+              "enabled": true,
+              "name": "query",
+              "value": "brave"
+            }
+          ]
+        },
+        "scheme": {
+          "name": "http",
+          "version": "V11"
+        },
+        "host": "127.0.0.1",
+        "path": "/api/v1/users"
+      },
+      "id": "83d3d378-84b6-4082-9cbb-0b4cc7cc070b",
+      "lastModified": "2017-09-18T13:29:18.291-04:00",
+      "name": "Get Users 2 - Brave Users",
+      "headers": [
+        {
+          "enabled": true,
+          "name": "X-Requested-With",
+          "value": "XMLHttpRequest"
+        }
+      ],
+      "metaInfo": {
+        "ownerId": "auth0|56bba79cea988c1753047d7a"
+      },
+      "parentId": "b55c9b6f-dc1a-47c7-a4d5-9944a478edbe"
+    },
+    {
+      "type": "Request",
+      "method": {
+        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.1",
+        "name": "GET"
+      },
+      "body": {
+        "formBody": {
+          "overrideContentType": true,
+          "encoding": "application/x-www-form-urlencoded"
+        },
+        "bodyType": "Text",
+        "autoSetLength": true,
+        "textBody": "{\n  \"email\" : \"pgriffin@quahog.gov\",\n  \"full_name\" : \"Pea-tear Griffin, Peter Griffin!\",\n  \"metadata\" : \"Idiot.\"\n}"
+      },
+      "headersType": "Form",
+      "uri": {
+        "query": {
+          "delimiter": "&",
+          "items": [
+            {
+              "enabled": true,
+              "name": "query",
+              "value": "father"
+            }
+          ]
+        },
+        "scheme": {
+          "name": "http",
+          "version": "V11"
+        },
+        "host": "127.0.0.1",
+        "path": "/api/v1/users"
+      },
+      "id": "0fd9701f-ccc9-4fd5-ab2d-31fd07de0526",
+      "lastModified": "2017-09-18T13:32:22.036-04:00",
+      "name": "Get Users 3 - Fathers",
+      "headers": [
+        {
+          "enabled": true,
+          "name": "X-Requested-With",
+          "value": "XMLHttpRequest"
+        }
+      ],
+      "metaInfo": {
+        "ownerId": "auth0|56bba79cea988c1753047d7a"
+      },
+      "parentId": "b55c9b6f-dc1a-47c7-a4d5-9944a478edbe"
+    },
+    {
+      "type": "Request",
+      "method": {
+        "requestBody": true,
+        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+        "name": "POST"
+      },
+      "body": {
+        "formBody": {
+          "overrideContentType": true,
+          "encoding": "application/x-www-form-urlencoded"
+        },
+        "bodyType": "Text",
+        "autoSetLength": true,
+        "textBody": "{\n  \"email\" : \"ricksanchez@flermulon.quanto\",\n  \"phone_number\" : \"111-000-0000\",\n  \"full_name\" : \"Rick Sanchez\",\n  \"password\" : \"wubalubadubdub\",\n  \"metadata\" : \"Rick Sanchez (voiced by Justin Roiland) – A genius scientist who is the father of Beth Smith and the maternal grandfather of Morty and Summer. His alcoholic tendencies lead his daughter's family to worry about the safety of their son Morty.\"\n}"
+      },
+      "headersType": "Form",
+      "uri": {
+        "query": {
+          "delimiter": "&",
+          "items": []
+        },
+        "scheme": {
+          "name": "http",
+          "version": "V11"
+        },
+        "host": "127.0.0.1",
+        "path": "/api/v1/users"
+      },
+      "id": "8a860404-368e-4c2e-a62e-dbc885e8ea87",
+      "lastModified": "2017-09-18T13:11:38.643-04:00",
+      "name": "Post User 1 - Rick",
+      "headers": [
+        {
+          "enabled": true,
+          "name": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "enabled": true,
+          "name": "X-Requested-With",
+          "value": "XMLHttpRequest"
+        }
+      ],
+      "metaInfo": {
+        "ownerId": "auth0|56bba79cea988c1753047d7a"
+      },
+      "parentId": "b55c9b6f-dc1a-47c7-a4d5-9944a478edbe"
+    },
+    {
+      "type": "Request",
+      "method": {
+        "requestBody": true,
+        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+        "name": "POST"
+      },
+      "body": {
+        "formBody": {
+          "overrideContentType": true,
+          "encoding": "application/x-www-form-urlencoded"
+        },
+        "bodyType": "Text",
+        "autoSetLength": true,
+        "textBody": "{\n  \"email\" : \"goku@turtleschool.edu\",\n  \"phone_number\" : \"222-000-0000\",\n  \"full_name\" : \"Son Goku\",\n  \"password\" : \"iamaterriblefather\",\n  \"metadata\" : \"I am the hope of the universe. I am the answer to all living things that cry out for peace. I am protector of the innocent. I am the light in the darkness. I am truth. Ally to good! Nightmare to you!\"\n}"
+      },
+      "headersType": "Form",
+      "uri": {
+        "query": {
+          "delimiter": "&",
+          "items": []
+        },
+        "scheme": {
+          "name": "http",
+          "version": "V11"
+        },
+        "host": "127.0.0.1",
+        "path": "/api/v1/users"
+      },
+      "id": "578308aa-201a-4bad-98b0-5ff957a86463",
+      "lastModified": "2017-09-18T13:13:35.301-04:00",
+      "name": "Post User 2 - Goku",
+      "headers": [
+        {
+          "enabled": true,
+          "name": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "enabled": true,
+          "name": "X-Requested-With",
+          "value": "XMLHttpRequest"
+        }
+      ],
+      "metaInfo": {
+        "ownerId": "auth0|56bba79cea988c1753047d7a"
+      },
+      "parentId": "b55c9b6f-dc1a-47c7-a4d5-9944a478edbe"
+    },
+    {
+      "type": "Request",
+      "method": {
+        "requestBody": true,
+        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+        "name": "POST"
+      },
+      "body": {
+        "formBody": {
+          "overrideContentType": true,
+          "encoding": "application/x-www-form-urlencoded"
+        },
+        "bodyType": "Text",
+        "autoSetLength": true,
+        "textBody": "{\n  \"email\" : \"gohan@piccolo.edu\",\n  \"phone_number\" : \"222-222-0000\",\n  \"full_name\" : \"Son Gohan\",\n  \"password\" : \"myparentsareabusivepleasehelp\",\n  \"metadata\" : \"All I do is study and fight aliens, what is my life? I guess I'm brave though.\"\n}"
+      },
+      "headersType": "Form",
+      "uri": {
+        "query": {
+          "delimiter": "&",
+          "items": []
+        },
+        "scheme": {
+          "name": "http",
+          "version": "V11"
+        },
+        "host": "127.0.0.1",
+        "path": "/api/v1/users"
+      },
+      "id": "570014a7-e067-4b51-b09b-ffafe549a8a9",
+      "lastModified": "2017-09-18T13:30:28.882-04:00",
+      "name": "Post User 3 - Gohan",
+      "headers": [
+        {
+          "enabled": true,
+          "name": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "enabled": true,
+          "name": "X-Requested-With",
+          "value": "XMLHttpRequest"
+        }
+      ],
+      "metaInfo": {
+        "ownerId": "auth0|56bba79cea988c1753047d7a"
+      },
+      "parentId": "b55c9b6f-dc1a-47c7-a4d5-9944a478edbe"
+    },
+    {
+      "type": "Request",
+      "method": {
+        "requestBody": true,
+        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+        "name": "POST"
+      },
+      "body": {
+        "formBody": {
+          "overrideContentType": true,
+          "encoding": "application/x-www-form-urlencoded"
+        },
+        "bodyType": "Text",
+        "autoSetLength": true,
+        "textBody": "{\n  \"email\" : \"sirrobin@camelot.gov\",\n  \"phone_number\" : \"333-000-0000\",\n  \"full_name\" : \"Sir Robin The-Not-Quite-So-Brave-As-Sir-Lancelot\",\n  \"password\" : \"bravelyrunaway\",\n  \"metadata\" : \"Bravely bold Sir Robin rode forth from Camelot. He was not afraid to die, oh brave Sir Robin. He was not at all afraid to be killed in nasty ways, brave, brave, brave, brave Sir Robin. He was not in the least bit scared to be mashed into a pulp, or to have his eyes gouged out, and his elbows broken. To have his kneecaps split, and his body burned away, and his limbs all hacked and mangled, brave Sir Robin. His head smashed in and heart cut out, and his liver removed, and his bowels unplugged, and his nostrils-\"\n}"
+      },
+      "headersType": "Form",
+      "uri": {
+        "query": {
+          "delimiter": "&",
+          "items": []
+        },
+        "scheme": {
+          "name": "http",
+          "version": "V11"
+        },
+        "host": "127.0.0.1",
+        "path": "/api/v1/users"
+      },
+      "id": "1e5bc3b3-15ee-48c1-a029-be341f83f507",
+      "lastModified": "2017-09-18T13:23:41.330-04:00",
+      "name": "Post User 4 - Sir Robin",
+      "headers": [
+        {
+          "enabled": true,
+          "name": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "enabled": true,
+          "name": "X-Requested-With",
+          "value": "XMLHttpRequest"
+        }
+      ],
+      "metaInfo": {
+        "ownerId": "auth0|56bba79cea988c1753047d7a"
+      },
+      "parentId": "b55c9b6f-dc1a-47c7-a4d5-9944a478edbe"
+    },
+    {
+      "type": "Request",
+      "method": {
+        "requestBody": true,
+        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+        "name": "POST"
+      },
+      "body": {
+        "formBody": {
+          "overrideContentType": true,
+          "encoding": "application/x-www-form-urlencoded"
+        },
+        "bodyType": "Text",
+        "autoSetLength": true,
+        "textBody": "{\n  \"email\" : \"pgriffin@quahog.gov\",\n  \"full_name\" : \"Pea-tear Griffin, Peter Griffin!\",\n  \"metadata\" : \"Idiot.\"\n}"
+      },
+      "headersType": "Form",
+      "uri": {
+        "query": {
+          "delimiter": "&",
+          "items": []
+        },
+        "scheme": {
+          "name": "http",
+          "version": "V11"
+        },
+        "host": "127.0.0.1",
+        "path": "/api/v1/users"
+      },
+      "id": "eb8ec9b6-f917-4a57-bca6-266c7d949816",
+      "lastModified": "2017-09-18T13:23:26.738-04:00",
+      "name": "Post User 5 - Peter Griffin - Bad Data",
+      "headers": [
+        {
+          "enabled": true,
+          "name": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "enabled": true,
+          "name": "X-Requested-With",
+          "value": "XMLHttpRequest"
+        }
+      ],
+      "metaInfo": {
+        "ownerId": "auth0|56bba79cea988c1753047d7a"
+      },
+      "parentId": "b55c9b6f-dc1a-47c7-a4d5-9944a478edbe"
+    }
+  ]
+}
